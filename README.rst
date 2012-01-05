@@ -16,7 +16,7 @@ On Django >= 1.3::
 
     CACHES = {
         'default': {
-            'BACKEND': 'ultramemcached.UltraMemcachedCache',
+            'BACKEND': 'ultramemcached_cache.ultramemcached.UltraMemcachedCache',
             'LOCATION': ['<host>:<port>',],
             'TIMEOUT: 60*60*24*30,
         },
