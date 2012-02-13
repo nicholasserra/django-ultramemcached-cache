@@ -263,7 +263,7 @@ class BaseUltraMemcachedCache(BaseCache):
 class UltraMemcachedCache(BaseUltraMemcachedCache):
     "An implementation of a cache binding using umemcached"
     def __init__(self, server, params):
-        import umemcached
+        import umemcache
         super(UltraMemcachedCache, self).__init__(server, params,
-                                             library=umemcached,
+                                             library=umemcache,
                                              value_not_found_exception=ValueError)
