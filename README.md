@@ -3,7 +3,7 @@ A simple [ultramemcached](https://github.com/esnme/ultramemcached) cache backend
 
 
 #Notes
-This cache backend requires the [ultramemcached](https://github.com/esnme/ultramemcached) Python client library for
+This cache backend requires the [ultramemcache](https://github.com/esnme/ultramemcache) Python client library for
 communicating with the Memcached server.
 
 #Usage
